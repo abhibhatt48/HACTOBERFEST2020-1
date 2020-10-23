@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class javaPractice {
+
+	
+	public static void main(String[] args) {
+System.out.println("enter first number ");
+int a=sc.nextInt();
+System.out.println("enter second number ");
+int b=sc.nextInt();
+System.out.println("enter operation ");
+System.out.println("1 - addition");
+System.out.println("2 - subtraction");
+System.out.println("3 - multiply");
+System.out.println("4 - divide");
+int c=sc.nextInt();
+int d=a+b;
+int e=a-b;
+int f=a*b;
+int g=a/b;
+
+switch(c){
+case 1:
+	System.out.println("answer is "+d);
+break;
+case 2:
+	System.out.println("answer is "+e);
+	break;
+case 3:
+	System.out.println("answer is "+f);
+break;
+case 4:
+	System.out.println("answer is "+g);
+break;
+}
